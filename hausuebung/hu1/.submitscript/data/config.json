@@ -1,8 +1,8 @@
 {
-  "course_name": "Betriebssysteme-ss23",
+  "course_name": "Betriebssysteme-ss24",
   "server": {
-    "hostname": "http://vmar01.mni.thm.de",
-    "port": 8000
+    "hostname": "https://vmar01.mni.thm.de",
+    "port": 8443
   },
   "max_team_size": 3,
   "assignment_ids": [
