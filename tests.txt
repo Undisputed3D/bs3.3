@@ -1,0 +1,11 @@
+./redirect output.txt - echo Hello, world!
+./redirect - error.txt ls not_existing_directory
+./redirect output.txt error.txt ls -l
+./redirect output.txt error.txt ls -l
+./redirect - - echo "This should appear in terminal"
+./redirect output.txt error.txt grep "pattern" file.txt
+./redirect
+./redirect /unreachable/output.txt - echo "This won't work"
+./redirect out.txt err.txt seq 1 10000
+./redirect out.txt err.txt bash -c "echo start; ls not_a_dir; echo end"
+
